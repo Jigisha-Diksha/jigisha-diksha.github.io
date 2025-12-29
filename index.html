@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jigisha Diksha | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #0f172a; color: #e5e7eb; }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { padding: 2.5rem 1.5rem; text-align: center; background: linear-gradient(135deg, #1e293b, #0f172a); }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    header h2 { font-size: 1.1rem; color: #9ca3af; margin-bottom: 1rem; }
+    header p { max-width: 650px; margin: 0.5rem auto; color: #d1d5db; }
+    .btn-row { margin-top: 1.25rem; display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; }
+    .btn {
+      padding: 0.55rem 1.1rem;
+      border-radius: 999px;
+      border: 1px solid #38bdf8;
+      background: transparent;
+      color: #e5e7eb;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .btn.primary { background: #38bdf8; color: #0f172a; border-color: #38bdf8; }
+
+    main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+    section { margin-bottom: 2.5rem; }
+    h3.section-title {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #38bdf8;
+      padding-left: 0.6rem;
+    }
+    .card {
+      background: #020617;
+      border-radius: 0.75rem;
+      padding: 1.25rem 1.3rem;
+      border: 1px solid #1f2937;
+      margin-bottom: 1rem;
+    }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+    .pill {
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid #4b5563;
+      font-size: 0.75rem;
+      color: #d1d5db;
+    }
+    .tag { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #9ca3af; margin-bottom: 0.25rem; }
+
+    ul { margin-left: 1.2rem; margin-top: 0.4rem; }
+    ul li { margin-bottom: 0.2rem; }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem 2rem;
+      font-size: 0.8rem;
+      color: #6b7280;
+      border-top: 1px solid #1f2937;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Jigisha Diksha</h1>
+    <h2>B.Tech CSE (2022–2026) • Cybersecurity & DevOps Enthusiast</h2>
+    <p>
+      Passionate about network security, secure software development, and open-source innovation.
+      Exploring how systems, infrastructure, and code come together to build reliable and secure products.
+    </p>
+    <div class="btn-row">
+      <a class="btn primary" href="https://github.com/Jigisha-Diksha" target="_blank" rel="noopener">GitHub Profile</a>
+      <a class="btn" href="https://www.linkedin.com/in/jigisha-diksha-240a53372" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="#projects">View Projects</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <h3 class="section-title">About</h3>
+      <div class="card">
+        <p>
+          I am a B.Tech CSE student (2022–2026) at Ramgarh Engineering College, interested in
+          cybersecurity, DevOps, operating systems, and scalable system design.
+        </p>
+        <p style="margin-top:0.5rem;">
+          I enjoy learning by building small, practical projects and contributing to open-source,
+          especially in areas like security-focused tools, infrastructure, and developer experience.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h3 class="section-title">Highlighted Projects</h3>
+
+      <div class="card">
+        <div class="tag">AI • NLP • Web App</div>
+        <h4>Ranchi Local Guide Translator</h4>
+        <p style="margin-top:0.3rem;">
+          An AI-powered translator that bridges Ranchi's local dialects (Nagpuri/Khortha) with standard Hindi and English,
+          helping tourists, students, and newcomers understand local slang, food terms, and cultural phrases.
+        </p>
+        <ul>
+          <li>Implements a custom dictionary-based NLP engine for phrase and term detection.</li>
+          <li>Supports CLI, demo scripts, and a Flask-based web interface for interactive translation.</li>
+          <li>Deployed via GitHub Pages and local server for easy access and experimentation.</li>
+        </ul>
+        <div class="pill-row">
+          <span class="pill">Python</span>
+          <span class="pill">Flask</span>
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">Kiro AI</span>
+          <span class="pill">GitHub Pages</span>
+        </div>
+        <p style="margin-top:0.6rem;">
+          <a href="https://github.com/Jigisha-Diksha/ranchi-local-guide" target="_blank" rel="noopener">View on GitHub</a>
+          &nbsp;•&nbsp;
+          <a href="https://jigisha-diksha.github.io/ranchi-local-guide/" target="_blank" rel="noopener">Live Demo</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h3 class="section-title">Skills & Interests</h3>
+      <div class="card">
+        <strong>Languages & Tools</strong>
+        <div class="pill-row" style="margin-top:0.4rem;">
+          <span class="pill">C</span>
+          <span class="pill">C++</span>
+          <span class="pill">Python</span>
+          <span class="pill">Bash</span>
+          <span class="pill">Linux</span>
+          <span class="pill">Docker</span>
+          <span class="pill">Git</span>
+          <span class="pill">Postman</span>
+        </div>
+
+        <strong style="display:block; margin-top:0.9rem;">Core Interests</strong>
+        <div class="pill-row" style="margin-top:0.4rem;">
+          <span class="pill">Operating Systems</span>
+          <span class="pill">DSA</span>
+          <span class="pill">DBMS</span>
+          <span class="pill">Computer Networking</span>
+          <span class="pill">OOP</span>
+          <span class="pill">Cybersecurity</span>
+          <span class="pill">DevOps</span>
+          <span class="pill">System Design</span>
+        </div>
+
+        <strong style="display:block; margin-top:0.9rem;">Achievements</strong>
+        <ul style="margin-top:0.4rem;">
+          <li>Open-Source Contributor at GirlScript Summer of Code 2025.</li>
+          <li>Built Ranchi Local Guide for AI For Bharat Hackathon, focusing on regional language accessibility.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h3 class="section-title">Contact</h3>
+      <div class="card">
+        <p>If you would like to collaborate, discuss ideas, or just connect, feel free to reach out.</p>
+        <ul style="margin-top:0.4rem;">
+          <li>GitHub: <a href="https://github.com/Jigisha-Diksha" target="_blank" rel="noopener">github.com/Jigisha-Diksha</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/jigisha-diksha-240a53372" target="_blank" rel="noopener">linkedin.com/in/jigisha-diksha-240a53372</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Jigisha Diksha • Made with curiosity and code
+  </footer>
+
+</body>
+</html>
